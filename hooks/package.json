@@ -1,0 +1,48 @@
+{
+  "name": "@ui8kit/hooks",
+  "version": "0.1.0",
+  "description": "A collection of hooks for state and UI management for buildy/ui",
+  "homepage": "https://buildy.tw",
+  "license": "MIT",
+  "author": "buildy-ui",
+  "keywords": [
+    "frontend",
+    "hooks",
+    "library",
+    "tailwind",
+    "utility-first",
+    "semantic",
+    "react",
+    "react-hooks",
+    "state"
+  ],
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "repository": {
+    "url": "https://github.com/buildy-ui/ui.git",
+    "type": "git",
+    "directory": "packages/@ui8kit/hooks"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

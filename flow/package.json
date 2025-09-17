@@ -1,0 +1,55 @@
+{
+  "name": "@ui8kit/flow",
+  "version": "0.0.1",
+  "description": "A collection of flow for buildy/ui",
+  "homepage": "https://buildy.tw",
+  "license": "MIT",
+  "author": "buildy-ui",
+  "keywords": [
+    "frontend",
+    "flow",
+    "library",
+    "tailwind",
+    "utility-first",
+    "semantic",
+    "react",
+    "react-flow",
+    "flow",
+    "state"
+  ],
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "repository": {
+    "url": "https://github.com/buildy-ui/ui.git",
+    "type": "git",
+    "directory": "packages/@ui8kit/flow"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "@ui8kit/core": "*",
+    "@ui8kit/form": "*"
+  },
+  "dependencies": {
+    "zod": "^3.23.8",
+    "zustand": "^4.5.5"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
