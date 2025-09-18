@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Create an AI-driven llms agent based on GraphRAG using Neo4j and Qdrant for Node.js",
   "homepage": "https://buildy.tw",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "author": "buildy-ui",
   "type": "module",
   "keywords": [

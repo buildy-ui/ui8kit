@@ -53,7 +53,7 @@ Create `package.json` in the repository root (aligns with provided example):
   "name": "crm",
   "version": "0.0.1",
   "private": true,
-  "license": "MIT",
+  "license": "GPL-3.0",
   "type": "module",
   "author": {
     "name": "buildy",
@@ -453,6 +453,6 @@ bun run dev:dash
 
 ## License
 
-MIT
+GPL-3.0
 
 

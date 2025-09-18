@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A collection of hooks for state and UI management for buildy/ui",
   "homepage": "https://buildy.tw",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "author": "buildy-ui",
   "keywords": [
     "frontend",

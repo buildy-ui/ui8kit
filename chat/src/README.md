@@ -763,7 +763,7 @@ toolManager.on('toolExecuted', (event) => {
 
 ## 📄 License
 
-MIT License - see [LICENSE](../LICENSE) file.
+GPL-3.0 License - see [LICENSE](../LICENSE) file.
 
 ## 📞 Support
 

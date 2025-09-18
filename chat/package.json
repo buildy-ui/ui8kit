@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Provider-agnostic AI chat library with React components and utilities",
   "homepage": "https://buildy.tw",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "author": "buildy-ui",
   "keywords": [
     "frontend",
