@@ -4,3 +4,6 @@ export { lesseUITheme } from './themes/lesseUI';
 export type { SkyOSTheme } from './themes/skyOS';
 export type { ModernUITheme } from './themes/modernUI';
 export type { LesseUITheme } from './themes/lesseUI';
+
+// providers
+export { ThemeProvider, useTheme } from './providers/ThemeProvider';
